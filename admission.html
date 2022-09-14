@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="/style/admissionstyle.css" />
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Expert Class</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="#"><img id="logo" src="/images/logo.png" alt="logo" /></a>
+
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/courses.html">Courses</a></li>
+          <li><a href="/membership.html">Membership</a></li>
+          <li><a href="/faculty.html">Faculty</a></li>
+          <li><a href="/gallery.html">Gallery</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <li><a id="admission" href="/admission.html">Admission</a></li>
+        </ul>
+      </nav>
+      <a href="#sidebtn" class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </header>
+    <section>
+      <div class="headline">
+        <h2>Admission Form</h2>
+      </div>
+      <div class="alert">Your message has been sent</div>
+      <div id="admission-form">
+        <form id="Expert Computer Education Centre">
+          <label for="branch">Branch: </label>
+          <select id="branch" required>
+            <option disabled selected value>-- select branch --</option>
+            <option value="Bailhongal">Bailhongal</option>
+            <option value="Neginhal">Neginhal</option>
+            <option value="Yaragatti">Yaragatti</option>
+            <option value="Ichanla">Ichanla</option>
+          </select>
+          <label for="year">Year: </label>
+          <select id="year" required>
+            <option disabled selected value>-- select year --</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+            <option value="2030">2030</option>
+            <option value="2031">2031</option>
+            <option value="2032">2032</option>
+            <option value="2033">2033</option>
+            <option value="2034">2034</option>
+            <option value="2035">2035</option>
+            <option value="2036">2036</option>
+          </select>
+          <label for="roolnumber"
+            >Rool No(select 00, it will change in futur) :
+          </label>
+          <select id="roolnumber" required>
+            <option disabled selected value>-- select 00 --</option>
+            <option value="00">00</option>
+          </select>
+          <label for="name">Name: </label>
+          <input
+            type="text"
+            name="user-name"
+            id="name"
+            placeholder="Name"
+            required
+          />
+          <label for="fathername">Father Name: </label>
+          <input
+            type="text"
+            name="father-name"
+            id="fathername"
+            placeholder="Father Name"
+            required
+          />
+          <label for="mothername">Mother Name: </label>
+          <input
+            type="text"
+            name="mother-name"
+            id="mothername"
+            placeholder="Mother Name"
+            required
+          />
+
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            name="Email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+
+          <label for="qualification">Qualification: </label>
+          <input
+            type="text"
+            name="qualification"
+            id="qualification"
+            placeholder="Qualification"
+            required
+          />
+
+          <label for="caste">Caste: </label>
+          <select id="caste" required>
+            <option disabled selected value>-- select caste --</option>
+            <option value="SC">SC</option>
+            <option value="ST">ST</option>
+            <option value="OBC">OBC</option>
+            <option value="GM">GM</option>
+          </select>
+
+          <label for="gender">Gender: </label>
+          <select id="gender" required>
+            <option disabled selected value>-- select gender --</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+
+          <label for="religion">Religion: </label>
+          <select id="religion" required>
+            <option disabled selected value>-- select religion --</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Sikh">Sikh</option>
+            <option value="Jain">Jain</option>
+            <option value="Christian">Christian</option>
+            <option value="Buddhist">Buddhist</option>
+            <option value="Muslim">Muslim</option>
+          </select>
+
+          <label for="course">Select Course: </label>
+          <select id="course" required>
+            <option disabled selected value>-- select course --</option>
+            <option value="C, C++">C, C++</option>
+            <option value="Basic">Basic</option>
+            <option value="DTP">DTP</option>
+            <option value="Tally">Tally</option>
+            <option value="OneYear">One Year</option>
+            <option value="Basic,DTP">Basic, DTP</option>
+            <option value="Basic,Tally">Basic, Tally</option>
+            <option value="DTP,Tally">DTP, Tally</option>
+            <option value="Autocad">Autocad</option>
+            <option value="Oracle">Oracle</option>
+            <option value="Java">Java</option>
+            <option value="Nudi">Nudi 4.0 & 6.0</option>
+            <option value="Internet">Internet</option>
+          </select>
+
+          <label for="slot-time">Select Slot: </label>
+          <select id="slot-time">
+            <option disabled selected value>-- select time --</option>
+            <option value="8am to 9am">8am to 9am</option>
+            <option value="9am to 10am">9am to 10am</option>
+            <option value="10am to 11am">10am to 11am</option>
+            <option value="11am to 12pm">11am to 12pm</option>
+            <option value="12pm to 1pm">12pm to 1pm</option>
+            <option value="1pm to 2pm">1pm to 2pm</option>
+            <option value="2pm to 3pm">2pm to 3pm</option>
+            <option value="3pm to 4pm">3pm to 4pm</option>
+            <option value="4pm to 5pm">4pm to 5pm</option>
+            <option value="5pm to 6pm">5pm to 6pm</option>
+          </select>
+
+          <h4 style="margin-top: 5px">Select Course Time Duration</h4>
+          <div id="course">
+            <label for="start-time">Start:</label>
+            <input type="date" name="starttime" id="start-time" required />
+            <label for="end-time">End:</label>
+            <input type="date" name="endtime" id="end-time" required />
+          </div>
+
+          <label for="address">Full Address: </label>
+          <input
+            type="text"
+            name="address"
+            id="address"
+            placeholder="Address"
+            required
+          />
+
+          <label for="userno">Student Mobile No: </label>
+          <input
+            type="number"
+            name="studentno"
+            id="userno"
+            placeholder="Student No"
+            required
+          />
+
+          <label for="parentsno">Parents Mobile No: </label>
+          <input
+            type="number"
+            name="parentsno"
+            id="parentsno"
+            placeholder="Parents No"
+            required
+          />
+
+          <!-- type="submit" -->
+          <div id="lasts">
+            <button id="lastbtn" onclick="save()">Submit</button>
+            <button id="last" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <aside id="sidebtn">
+      <a href="#">
+        <span class="btn">&times;</span>
+      </a>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/courses.html">Courses</a></li>
+        <li><a href="/membership.html">Membership</a></li>
+        <li><a href="/faculty.html">Faculty</a></li>
+        <li><a href="/gallery.html">Gallery</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a id="admission" href="/admission.html">Admission</a></li>
+      </ul>
+    </aside>
+
+    <script src="https://smtpjs.com/v3/smtp.js">client.UseDefaultCredentials = true;</script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+
+    <script src="/js/admission.js"></script>
+  </body>
+</html>

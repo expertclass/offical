@@ -1,0 +1,288 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow: auto;
+}
+section {
+  margin: 1rem 15rem 0 15rem;
+}
+.headline {
+  display: none;
+}
+#admission-form {
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(255, 255, 255, 0.15);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  flex-wrap: nowrap;
+}
+form {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+input {
+  margin: 0.5rem 0 0 0;
+  width: 100%;
+  height: 1.5rem;
+  border: 0.1px solid rgb(114, 108, 238);
+  border-radius: 4px;
+}
+.alert {
+  text-align: center;
+  padding: 5px;
+  background-color: #79c879;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+  display: none;
+}
+select {
+  border: 0.1px solid rgb(114, 108, 238);
+  border-radius: 4px;
+  margin: 0.5rem 0 0 0;
+  width: 100%;
+  height: 1.5rem;
+}
+label {
+  margin: 0.5rem 0 0 0;
+}
+#lasts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#lastbtn {
+  width: 5rem;
+  height: 2rem;
+  background-color: rgb(248, 224, 70);
+  border: none;
+  margin-top: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#last {
+  width: 5rem;
+  height: 2rem;
+  background-color: rgb(248, 224, 70);
+  border: none;
+  margin-top: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#course {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#admission {
+  border: 1px solid rgb(60, 60, 60);
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(60, 60, 60);
+  color: white;
+}
+
+#admission:hover {
+  background-color: transparent;
+  color: black;
+}
+/* tab */
+@media (max-width: 64rem) {
+  body {
+    overflow: auto;
+  }
+  .headline {
+    display: none;
+  }
+  section {
+    margin: 0 8rem 0 8rem;
+  }
+  #admission-form {
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.15);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    flex-wrap: nowrap;
+  }
+  form {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  input {
+    margin: 0.8rem 0 0 0;
+    width: 100%;
+    height: 1.5rem;
+    border: 0.1px solid rgb(114, 108, 238);
+    border-radius: 4px;
+  }
+  .alert {
+    text-align: center;
+    padding: 5px;
+    background-color: #79c879;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+    display: none;
+  }
+  select {
+    border: 0.1px solid rgb(114, 108, 238);
+    border-radius: 4px;
+    margin: 0.8rem 0 0 0;
+    width: 100%;
+    height: 1.5rem;
+  }
+  label {
+    margin: 0.8rem 0 0 0;
+  }
+  #lasts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #lastbtn {
+    font-size: 80%;
+    width: 3rem;
+    height: 1.5rem;
+    background-color: rgb(248, 224, 70);
+    border: none;
+    margin-top: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #last {
+    font-size: 80%;
+    width: 3rem;
+    height: 1.5rem;
+    background-color: rgb(248, 224, 70);
+    border: none;
+    margin-top: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #course {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+/* phone */
+@media (max-width: 30rem) {
+  .headline {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+  body {
+    overflow: auto;
+  }
+  section {
+    margin: 0 2rem 0 2rem;
+  }
+
+  #admission-form {
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.15);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    flex-wrap: nowrap;
+  }
+  form {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  input {
+    margin: 0.5rem 0 0 0;
+    width: 100%;
+    height: 1.5rem;
+    border: 0.1px solid rgb(114, 108, 238);
+    border-radius: 4px;
+  }
+  .alert {
+    text-align: center;
+    padding: 5px;
+    background-color: #79c879;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+    display: none;
+  }
+  select {
+    border: 0.1px solid rgb(114, 108, 238);
+    border-radius: 4px;
+    margin: 0.5rem 0 0 0;
+    width: 100%;
+    height: 1.5rem;
+  }
+  label {
+    margin: 0.5rem 0 0 0;
+  }
+  #lasts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #lastbtn {
+    font-size: 80%;
+    width: 3rem;
+    height: 1.5rem;
+    background-color: rgb(248, 224, 70);
+    border: none;
+    margin-top: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #last {
+    font-size: 80%;
+    width: 3rem;
+    height: 1.5rem;
+    background-color: rgb(248, 224, 70);
+    border: none;
+    margin-top: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #course {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #admission {
+    background-color: transparent;
+    border: none;
+  }
+}

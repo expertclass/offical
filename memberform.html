@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="shared.css" />
+
+    <link rel="stylesheet" href="/style/memberform.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <title>Expert Class</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#"><img id="logo" src="/images/logo.png" alt="logo" /></a>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/courses.html">Courses</a></li>
+          <li><a href="/membership.html">Membership</a></li>
+          <li><a id="faculty" href="/faculty.html">Faculty</a></li>
+          <li><a href="/gallery.html">Gallery</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <li><a id="admission" href="/admission.html">Admission</a></li>
+        </ul>
+      </nav>
+      <a href="#sidebtn" class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </header>
+    <section>
+      <div class="headline">
+        <h1>Expert Education Society</h1>
+      </div>
+      <div id="member-form">
+      <div class="alert">Your request has been sent</div>
+      <form id="Expert Education Society Membership Form">
+        <label for="name">Name: </label>
+        <input
+          type="text"
+          name="user-name"
+          id="name"
+          placeholder="Name"
+          required
+        />
+        <label for="desginataion">Desginataion: </label>
+        <select id="desginataion" required>
+          <option disabled selected value>-- select --</option>
+          <option value="President">President</option>
+          <option value="Vice-President">Vice-President</option>
+          <option value="Secretary">Secretary</option>
+          <option value="Member">Member</option>
+        </select>
+
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age" placeholder="Age" required />
+
+        <label for="gender">Gender: </label>
+        <select id="gender" required>
+          <option disabled selected value>-- select gender --</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <label for="userno">Mobile No: </label>
+        <input
+          type="number"
+          name="userno"
+          id="userno"
+          placeholder="Mobile No"
+          required
+        />
+
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          name="Email"
+          id="email"
+          placeholder="Email"
+          required
+        />
+
+        <label for="address">Address: </label>
+        <input
+          type="text"
+          name="address"
+          id="address"
+          placeholder="Address"
+          required
+        />
+<div id="membbuttons"><button id="membbtn" onclick="save()">Submit</button>
+  <button id="membbtns" type="reset">Reset</button></div>
+        
+      </form>
+    </div>
+    
+    </section>
+    <aside id="sidebtn">
+      <a href="#">
+        <span class="btn">&times;</span>
+      </a>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/courses.html">Courses</a></li>
+        <li><a href="/membership.html">Membership</a></li>
+        <li><a id="faculty" href="/faculty.html">Faculty</a></li>
+        <li><a href="/gallery.html">Gallery</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a id="admission" href="/admission.html">Admission</a></li>
+      </ul>
+    </aside>
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+    <script src="/js/membershipform.js"></script>
+  </body>
+</html>

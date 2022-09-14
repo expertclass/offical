@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="/style/contstyle.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <title>Expert Class</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#"><img id="logo" src="/images/logo.png" alt="logo"></a>
+
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/courses.html">Courses</a></li>
+                <li><a href="/membership.html">Membership</a></li>
+                <li><a href="/faculty.html">Faculty</a></li>
+                <li><a href="/gallery.html">Gallery</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a id="contact" href="/contact.html">Contact</a></li>
+                <li><a id="admission" href="/admission.html">Admission</a></li>
+            </ul>
+        </nav>
+        <a href="#sidebtn" class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </header>
+    <section>
+        <div class="headline">
+            <h2>Contact Us</h2>
+        </div>
+        <div id="contact-form">
+
+            <div class="alert">Your message has been sent</div>
+            <div class="sectiontext">
+                <p>Let us know about you!</p>
+            </div>
+            <form id="contactForm">
+                <div class="personInfo">
+                    <input type="text" name="user-firstname" id="userfirstname" required placeholder="First Name">
+                    <input type="text" name="user-lastname" id="userlastname" required placeholder="Last Name">
+                </div>
+                <div class="personInfo">
+
+                    <input type="email" name="user-email" id="useremail" required placeholder="Email">
+
+
+                    <input type="number" name="user-age" id="usernumber" required placeholder="Phone Number">
+                    <!-- min="12" -->
+                </div>
+
+
+                <textarea id="message" name="usermsg" rows="5" placeholder="Message"></textarea>
+                <button id="btn" type="submit">Submit</button>
+
+            </form>
+        </div>
+        <div id="contact-info">
+            <div class="info">
+                <h3>Contact Information</h3>
+                <a href="https://goo.gl/maps/GJh57kcJtPjHn9Cz6" target="_blank">
+                    <p>Channamma Samadi Road<br>Bailhongal - 591102, Belagavi<br>Karnatak, India</p>
+                </a>
+            </div>
+            <div class="info">
+                <p>Call Us: +91 85508 55843</p>
+            </div>
+            <div class="info">
+                <p>Working:
+                    Monday to Saturday<br>Timing :
+                    7 AM - 6 PM</p>
+            </div>
+            <div id="social">
+                <h3>Follow Us</h3>
+                <div id="social-icons">
+                    <a href="https://www.facebook.com/expert_computer_centre-104185434903022" target="_blank"><img
+                            src="/images/socialmediaicons/001-facebook.png" alt="facebook"></a>
+                    <a href="https://wa.me/message/AMAKOAXRS4AFM1" target="_blank"><img src="/images/socialmediaicons/004-whatsapp.png"
+                            alt="whatsapp"></a>
+                    <a href="https://www.instagram.com/expert_computer_centre/" target="_blank"><img
+                            src="/images/socialmediaicons/003-instagram.png" alt="instagram"></a>
+                    <a href="https://goo.gl/maps/GJh57kcJtPjHn9Cz6" target="_blank"><img src="/images/socialmediaicons/google-maps.png"
+                            alt="maps"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside id="sidebtn">
+        <a href="#">
+            <span class="btn">&times;</span>
+
+        </a>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+                <li><a href="/courses.html">Courses</a></li>
+                <li><a href="/membership.html">Membership</a></li>
+                <li><a href="/faculty.html">Faculty</a></li>
+                <li><a href="/gallery.html">Gallery</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a id="contact" href="/contact.html">Contact</a></li>
+                <li><a id="admission" href="/admission.html">Admission</a></li>
+        </ul>
+    </aside>
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+    <script src="/js/contact.js"></script>
+
+</body>
+
+</html>

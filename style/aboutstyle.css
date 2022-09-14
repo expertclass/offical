@@ -1,0 +1,175 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.headline {
+    display: none;
+}
+#about {
+    background-color: rgb(109, 109, 109);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#reactangle {
+    width: 23rem;
+    height: 35rem;
+    margin: 6rem 0 10rem 0;
+    background-color: rgb(248, 224, 70);
+}
+
+#rect-img-one {
+    width: 26.5rem;
+    height: 30rem;
+    margin: 3rem 0 10rem 15rem;
+}
+
+#rect-img-two {
+    display: none;
+}
+
+#about-main {
+    margin: 15rem 0 0 15rem;
+    width: 50%;
+}
+
+
+
+#about-info-text-one {
+    margin: -8rem 0 2rem 1.5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* tab design */
+@media(max-width: 64rem) {
+    body {
+        overflow: auto;
+    }
+
+    #container {
+
+        margin: 1rem 8rem 0 8rem;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        flex-wrap: nowrap;
+    }
+
+    #reactangle {
+        margin-top: 1rem;
+        width: 50%;
+        height: 10%;
+        background-color: rgb(248, 224, 70);
+    }
+
+    #about {
+        background-color: rgb(109, 109, 109);
+        color: white;
+        padding: 1.1px;
+        border-radius: 2px;
+
+    }
+
+    #rect-img-one {
+        display: none;
+    }
+
+    #rect-img-two {
+        margin: 3rem 0 10rem 10rem;
+        display: initial;
+        width: 150%;
+        height: 80%;
+    }
+
+    #about-main {
+       
+        margin: 3rem 8rem 0 8rem;
+        width: 100%;
+    }
+
+    #about-info-text-one {
+        margin: -10rem 8rem 0 -8rem;
+        font-size: 1.5rem;
+        line-height: 4rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    
+
+    
+}
+
+/* mobile design */
+@media(max-width: 30rem) {
+    body {
+        overflow: auto;
+    }
+    .headline {
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 500;
+        margin-top: -1.2rem;
+    }
+    #container {
+
+        margin: 1rem 4rem 0 4rem;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        flex-wrap: nowrap;
+    }
+
+    #about {
+        background-color: rgb(109, 109, 109);
+        color: white;
+        padding: 5px;
+        border-radius: 2px;
+    }
+
+    #reactangle {
+        margin-top: 1rem;
+        width: 60%;
+        height: 10%;
+        background-color: rgb(248, 224, 70);
+    }
+
+    #rect-img-one {
+        display: none;
+    }
+
+    #rect-img-two {
+        margin: 3rem 0 5rem 2rem;
+        display: initial;
+        width: 150%;
+        height: 80%;
+    }
+
+    #about-main {
+        
+        margin: 5rem 8rem 0 8rem;
+        width: 100%;
+    }
+
+    #about-info-text-one {
+        margin: -12rem 8rem 0 -8rem;
+        font-size: 1rem;
+        line-height: 2.5rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+   
+
+    #about {
+        background-color: transparent;
+        
+      }
+    
+}
